@@ -1,0 +1,20 @@
+$cor-fundo: #1c65d3;
+$cor-principal: #5a54d6;
+
+@mixin foco-visivel {
+    outline: 3px solid rgba(90, 84, 214, 0.25);
+    outline-offset: 2px;
+}
+
+body {
+    background: $cor-fundo;
+}
+
+input:focus {
+    border-color: $cor-principal;
+    @include foco-visivel;
+}
+
+button {
+    background: $cor-principal;
+}

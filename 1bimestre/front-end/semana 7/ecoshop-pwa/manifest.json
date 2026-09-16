@@ -1,0 +1,23 @@
+{
+  "short_name": "EcoShop",
+  "name": "EcoShop – Produtos Sustentáveis",
+  "icons": [
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "form_factor": "mobile"  
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "desktop"  
+    }
+  ],
+  "start_url": "/index.html",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#3cba54"
+}
